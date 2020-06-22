@@ -1,0 +1,303 @@
+ ul li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  .fl {
+    float: left;
+  }
+  .fr {
+    float: right;
+  }
+  
+  /*顶部导航开始*/
+  .top-nav {
+    height: 26px;
+    background: #f7f7f7;
+    border-bottom: 1px solid #d8d8d8;
+  }
+  .top-nav-con {
+    width: 970px;
+    margin: 0 auto;
+    height: 26px;
+  }
+  .border1{
+      border: solid 1px red;
+  }
+  .top-nav-r ul li {
+    float: left;
+    height: 26px;
+    line-height: 26px;
+  }
+  .top-nav-r ul{
+      margin: 0px;
+}
+  .top-nav-l {
+    height: 26px;
+    line-height: 26px;
+  }
+  .top-nav-r{
+      padding: 0px;
+  }
+  .top-nav-r ul li a {
+    display: inline-block;
+    height: 26px;
+    padding: 0 10px;
+  }
+  .logo{
+      width: 970px;
+      height: 84px;
+      margin: 0 auto;
+  }
+  .logo-pic{
+      width: 200px;
+      height: 84px;
+  }
+  .search{
+      height: 30px;
+      width: 520px;
+      border: 1px solid #c9c9c9;
+      background-color: #f9f9f9;
+      margin: 20px auto;
+      padding: 5px 5px 5px 4px;
+  }
+  .search input[type="text"]{
+      width: 420px;
+      height: 28px;
+      border: 1px solid #a6a6a6;
+      border-right: 0 none;
+      vertical-align: middle;
+    float: left;
+  }
+  .search input[type="button"]{
+      width: 99px;
+      height: 28px;
+      background-image: url(images1/serch.png);
+      vertical-align: middle;
+    }
+    .nav{
+        width: 970px;
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+    .nav ul{
+      padding-left: 15px;
+      border-bottom: #0266a3 3px solid;
+      padding-bottom: 5px;
+    }
+    .nav ul li{
+        display: inline-block;
+        margin-left: 0px;
+
+    }
+    .nav ul li a{
+        width: 50px;
+        margin: 0 5px;
+        color: #0266a3;
+    }
+    .mar{
+       width: 970px;
+       height: 210px;
+       margin: 0 auto;
+    }
+    .mar-left{
+      width: 200px;
+      height: 210px;
+      margin: 5px 0;
+      background-color:#ebf0f6;
+    }
+    .mar-left-title{
+
+    background-color:#0266a3 ;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    padding-left:10px;
+    }
+    .mar-left-list{
+      margin-top: 0px;
+      padding-bottom: 5px;
+    }
+    .mar-left-list ul{
+      padding: 0px;
+      margin-top: 5px;
+    }
+    .mar-left-list li{
+      height: 28px;
+      line-height: 28px;
+      padding-left: 10px;
+    }
+    .mar-left-list li img{
+      padding-right: 10px;
+    }
+    .bud{
+      width:950px;
+      height: 34px;
+      border-top:#c3d7e4 2px solid;
+      background-color:#ecf1f7;
+      line-height: 34px;
+      margin:0px auto;
+      margin-top: 15px;
+      font-size: 14px;
+      font-weight: 700;
+      padding-left: 20px;
+    }
+    .bor{border: #000 2px solid;}
+    .pro{
+      width: 970px;
+      margin: 0px auto;
+      height: 344px;
+      margin-top: 5px;
+    }
+    .pro-left{
+      width: 727px;
+      height: 344px;
+      border: 1px solid #d8d8d8;
+    }
+    .pro-left-top{
+      width: 656px;
+      height: 142px;
+      margin: 15px 0px 14px 26px;
+      border-top:1px solid #000 ;
+    }
+    .pro-left-top-l{
+      width:318px;
+      height: 142px;
+    }
+    .pro-left-top-ll{
+      width: 97px;
+      height: 142px;
+      margin-right: 10px;
+    }
+    .pro-left-top-lll{
+      height: 142px;
+      text-align: center;
+    }
+    .pic-1{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    }
+    .but-1{
+      width: 98px;
+      height: 26px;
+      background:url("images1/buy.png");
+      margin-top: 7px;
+    }
+    .pro-left-top p{
+      font-size: 13px;
+      text-align: left;
+    }
+    .txt3{
+      margin-top: 20px;
+      margin-bottom: 5px;
+    }
+    .pro-left-top span{
+      font-weight: 700;
+    }
+    .pro-left-top del{
+      padding-left: 10px;
+      font-size: 12px;
+    }
+    .txt3 span{color:red;}
+    .pro-right{
+      width: 220px;
+      height: 344px;
+      border: #d8d8d8 1px solid;
+    }
+    .pro-right-title{
+      height:28px;
+      line-height: 28px;
+      background: #fbfbfb;
+      border-bottom: 1px solid #e0e6f0;
+      padding-left: 5px;
+    }
+    .pro-right-list{
+      margin-top: 5px;
+    }
+    .pro-right-list ul{
+      margin-left: 5px;
+      padding: 0;
+    }
+    .pro-right li{
+      font-size: 14px;
+     display: block;
+     padding-top: 3px;
+     margin-top: 2px;
+     margin-left: 5px; 
+    }
+    .pro-right-list img{
+      margin-right: 10px;
+    }
+    .pro-right a:hover{
+      color: #f0f0f0;
+      text-decoration: underline;
+    }
+    .dogFood{
+      width: 970px;
+      height: 326px;
+      margin: 0 auto;
+    }
+    .dogFood-left{width:722px;height: 326px;}
+    .dogFood-l-t{
+      height: 23px;
+      border-bottom: 2px solid #00b0e7;
+    }
+    .dogFood-l-b{
+      height:301px;
+      border: 1px solid #cacaca;
+    }
+    .dogFood-l-t h3{
+      width: 100px;
+      text-align: right;
+      font-size: 14px;
+      color: #00b0e7;
+      font-weight: 700;
+      height: 23px;
+      line-height: 23px;
+      margin-left: auto;
+    }
+    .dogFood-pic {
+      width: 164px;
+      text-align: center;
+      margin-top: 5px ;
+      margin-right: 14px;
+      font-size: 13px;
+    }
+    .dogFood-pic p.et1{
+      height: 43px;
+      margin-top : 0px;
+      margin-bottom: 0px;
+    }
+    .dogFood-pic p.et2,
+    .dogFood-pic p.et3{
+      color: #999;
+      height: 20px;
+    margin: 0 ;
+    }
+    .dogFood-pic p.et4{
+      margin: 0;
+    }
+    .dogFood-pic p.et3 del,
+    .dogFood-pic p.et4 span{
+      color:#990000;
+    }
+    .dogFood-right{
+      width: 218px;
+      height: 326px;
+      padding-top: 15px;
+    }
+    .dogFood p{
+     padding: 0px;
+    }
+    .copyright{
+      height: 91px;
+      text-align: center;
+      margin-top: 20px;
+      font-size: 13px;
+    }
+    .copyright p.copy{
+      height: 24px;
+      margin-top: 5px;
+    }
